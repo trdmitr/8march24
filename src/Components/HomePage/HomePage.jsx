@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 export const HomePage = () => {
-    const imgUrl = "https://sun9-38.userapi.com/impg/aG4rTmMa0sKD5SefYkinhGpOAbYqyGIi9js1fg/fCY6QR2_AAU.jpg?size=768x1152&quality=96&sign=570e29395de39a9bb08f60395d72796d&type=album"
+    const imgUrl = "https://sun9-32.userapi.com/impg/UrM1GCKPlerLGnGDeslRU6VCQZM18RU-zrLoGg/WoJqow0XNfs.jpg?size=768x1152&quality=96&sign=d5cfb818ffa65a2be05effa8326bb588&type=album"
     // const imgUrl2 = 'https://trv-axtuba.ru/wp-content/uploads/2024/02/23-fevralya.jpg'
     const imgAlt = "Каверы Подземки"
     
