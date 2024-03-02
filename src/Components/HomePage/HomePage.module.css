@@ -10,8 +10,8 @@
     /* height: 100%; */
     object-fit: cover;
     font-size: 1px;
-    border: 9px solid var(--buttonBack);
-    border-radius: 13em;
+    /* border: 9px solid var(--buttonBack);
+    border-radius: 13em; */
     opacity: 0.9;
   
   }
@@ -38,18 +38,19 @@ clip-path: polygon(50% 0%,59.40% 9.22%,73% 6%,77.32% 20.01%,91% 22%,87.16% 37.00
   
   .navLink {
     position: absolute;
-    padding: 0.1em 2em 0.4em 2em;
+    z-index: 3;
+    padding:  1.4em 0.6em;
     margin-right: 1em;
     box-sizing: border-box;
-    top: 59%;
-    left: 9%;
+    top: 55%;
+    left: 51%;
     border: 1px solid #eeeeee;
     ;
     border-radius: 1em;
     text-decoration: none;
     font-weight: bold;
     color: var(--buttonColor);
-    background-color: var(--buttonBack);
+    background-color: #d8afaf;
     /* opacity: 0.7; */
     box-shadow: var(--buttonShadow);
     clip-path: polygon(0% 15%, 15% 12%, 29% 0, 77% 1%, 88% 10%, 100% 24%, 100% 74%, 89% 85%, 85% 100%, 45% 100%, 4% 82%, 0 47%);
@@ -105,20 +106,20 @@ clip-path: polygon(50% 0%,59.40% 9.22%,73% 6%,77.32% 20.01%,91% 22%,87.16% 37.00
     .navLink23 {
       position: absolute;
       /* clip-path: var(--foundation); */
-      padding: 1.5em 2em 7em 6em;
-      top: 72%;
-      left: 11%;
+      padding: 0.1em 0.5em;
+      top: 81%;
+      left: 28%;
       line-height: 3.5em;
-      border: 6px solid  var(--headerSing);
+      border: 6px double #f5efed8a;
       border-radius: 9em;
       text-decoration: none;
       font-weight: bold;
       color: var(--buttonColor);
-      background-color: var(--buttonBack);
-      -webkit-clip-path:var(--clipPath);
+      /* background-color: var(--buttonBack); */
+      /* -webkit-clip-path:var(--clipPath); */
       /* clip-path: var(--clipPath); */
-      clip-path:polygon(46% -17%, 12% 33%, 88% 25%, 95% 50%, 66% 52%, 28% 89%, 119% 88%, 77% 53%, 20% 39%, -13% 81%, 37% 78%);
-      height: 4em;
+      /* clip-path:polygon(46% -17%, 12% 33%, 88% 25%, 95% 50%, 66% 52%, 28% 89%, 119% 88%, 77% 53%, 20% 39%, -13% 81%, 37% 78%); */
+      /* height: 4em; */
       /* box-shadow: -8px 15px 43px 20px rgba(34, 60, 80, 0.3) inset; */
       box-shadow: var(--buttonShadow);
      

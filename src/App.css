@@ -1,13 +1,6 @@
 .App {
   text-align: center;
 }
-
-
-
-
-
-
-
 .device,
 .device::before,
 .device::after,
@@ -43,7 +36,7 @@
 		background: -moz-repeating-linear-gradient(to top, #B8E1FC 0%, #7C7CCF 99%);
 		background: repeating-linear-gradient(to top, #B8E1FC 0%, #7C7CCF 99%); */
 
-	background-image: url("https://trv-axtuba.ru/wp-content/uploads/2024/02/photo_2024-02-21_20-20-37.jpg");
+	background-image: url("https://sun9-67.userapi.com/impg/5Euxnn7Gmq1UCYRiIV2kPOq54R7sqHGA_jWnZg/yY9GX7twZLU.jpg?size=641x962&quality=96&sign=d5bb8e984504a0e56eb5f9a529309774&type=album");
 	background-position: center center;
 	background-size: cover;
 	border-radius: 32px;
@@ -61,7 +54,7 @@
   }
 .device-iphone-x .device-stripe::after,
 .device-iphone-x .device-stripe::before {
-	border: solid rgba(228, 85, 85, 0.25);
+	border: solid rgba(223, 145, 28, 0.705);
 	border-width: 0 6px;
 	content: "";
 	height: 5px;
