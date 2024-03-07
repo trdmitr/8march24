@@ -19,7 +19,7 @@ export const tzitata = (imgLink) => {
     return (
       <div>
         <p className={linkAuidio ? '' : classes.mediaHidden}>{linkName} </p>
-        <audio id="myaudio" controls preload="auto" className={linkAuidio ? '' : classes.mediaHidden}
+        <audio id="myaudio" controls  className={linkAuidio ? '' : classes.mediaHidden}
           src={linkAuidio} type="audio/mpeg" volume={0.5}/>
       </div>
     )
@@ -31,7 +31,7 @@ export const tzitata = (imgLink) => {
     <p className={linkVideo ? '' : classes.mediaHidden}>{linkName}</p>
     {linkVideo.includes('youtu.be') ? <ReactPlayer className={linkVideo ? '' 
     : classes.mediaHidden.join(' ')} id={classes.videoFrame} url={linkVideo} controls={true} origin = {window.location.hostname}  volume={0.5}/> 
-    :  <video className={[classes.videoBlock, linkVideo ? '' : classes.mediaHidden].join(' ')} src={linkVideo} controls={true} preload="auto" type="video/mp4" ></video>}
+    :  <video className={[classes.videoBlock, linkVideo ? '' : classes.mediaHidden].join(' ')} src={linkVideo} controls={true}  type="video/mp4" ></video>}
     </div>
     )
   }

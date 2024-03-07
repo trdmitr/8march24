@@ -106,7 +106,7 @@ clip-path: polygon(50% 0%,59.40% 9.22%,73% 6%,77.32% 20.01%,91% 22%,87.16% 37.00
     .navLink23 {
       position: absolute;
       /* clip-path: var(--foundation); */
-      padding: 0.1em 0.5em;
+      padding: 0.5em 0.5em;
       top: 81%;
       left: 28%;
       line-height: 3.5em;
@@ -115,7 +115,7 @@ clip-path: polygon(50% 0%,59.40% 9.22%,73% 6%,77.32% 20.01%,91% 22%,87.16% 37.00
       text-decoration: none;
       font-weight: bold;
       color: var(--buttonColor);
-      /* background-color: var(--buttonBack); */
+      background-color: var(--buttonBack);
       /* -webkit-clip-path:var(--clipPath); */
       /* clip-path: var(--clipPath); */
       /* clip-path:polygon(46% -17%, 12% 33%, 88% 25%, 95% 50%, 66% 52%, 28% 89%, 119% 88%, 77% 53%, 20% 39%, -13% 81%, 37% 78%); */
