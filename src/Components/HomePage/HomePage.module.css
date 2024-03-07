@@ -111,11 +111,11 @@ clip-path: polygon(50% 0%,59.40% 9.22%,73% 6%,77.32% 20.01%,91% 22%,87.16% 37.00
       left: 28%;
       line-height: 3.5em;
       border: 6px double #f5efed8a;
-      border-radius: 9em;
+      /* border-radius: 9em; */
       text-decoration: none;
       font-weight: bold;
       color: var(--buttonColor);
-      background-color: var(--buttonBack);
+      /* background-color: var(--buttonBack); */
       /* -webkit-clip-path:var(--clipPath); */
       /* clip-path: var(--clipPath); */
       /* clip-path:polygon(46% -17%, 12% 33%, 88% 25%, 95% 50%, 66% 52%, 28% 89%, 119% 88%, 77% 53%, 20% 39%, -13% 81%, 37% 78%); */
