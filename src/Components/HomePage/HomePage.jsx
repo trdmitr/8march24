@@ -8,7 +8,7 @@ export const HomePage = () => {
     // const imgUrl2 = 'https://trv-axtuba.ru/wp-content/uploads/2024/02/23-fevralya.jpg'
     const imgAlt = "Каверы Подземки"
     
-    // const frontAudio = "https://drive.google.com/uc?export=download&id=1-vJh40iIqi15VGpAAaqHJuiPZ6RA6HiI";
+    const frontAudio = "https://trv-axtuba.ru/wp-content/uploads/2024/03/Radagor.flac";
     // const imgTzi = "https://drive.google.com/uc?export=download&id=1gsY4lPUU4pJ07s0JwDBeJjUYddkAuSr3"
     return (
       <div className="device device-iphone-x">
@@ -29,8 +29,8 @@ export const HomePage = () => {
                           {/* <div className={classes.article}><p >С НОВЫМ 2024 ГОДОМ!</p></div> */}
                           <div className={classes.article}><img fetchpriority="high" role="presentation"  src={imgUrl} width={100} alt={imgAlt} /></div>
                           {/* <p className={classes.nameAudio}>Медоманы. Время Луны</p> */}
-                          {/* <audio controls 
-          src={frontAudio} type="audio/mpeg" /> */}
+                          <audio controls 
+          src={frontAudio} type="audio/mpeg" />
       
                           {/* <div className={classes.article}><img fetchpriority="high" role="presentation"  src={imgUrl2} width={100} alt={imgAlt} /></div> */}
                       </div>

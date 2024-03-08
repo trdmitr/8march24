@@ -107,7 +107,7 @@ clip-path: polygon(50% 0%,59.40% 9.22%,73% 6%,77.32% 20.01%,91% 22%,87.16% 37.00
       position: absolute;
       /* clip-path: var(--foundation); */
       padding: 0.5em 0.5em;
-      top: 81%;
+      top: 86%;
       left: 28%;
       line-height: 3.5em;
       border: 6px double #f5efed8a;
