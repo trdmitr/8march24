@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "80e3e8c82c48a5595c14",
-    "url": "/8march24/static/css/main.4df64add.chunk.css"
+    "revision": "f8403b702b2407f420d8",
+    "url": "/8march24/static/css/main.70eb2504.chunk.css"
   },
   {
-    "revision": "80e3e8c82c48a5595c14",
-    "url": "/8march24/static/js/main.8240a1d1.chunk.js"
+    "revision": "f8403b702b2407f420d8",
+    "url": "/8march24/static/js/main.098f7431.chunk.js"
   },
   {
     "revision": "69a2cb3352bb85e6a2ca",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/8march24/static/media/Peter_Ivanovitsch.e0df83df.ttf"
   },
   {
-    "revision": "e6bd5c0206e26358bcdf63cd649aaf27",
+    "revision": "b316c3b2b40a781c0219e6cf470c70a8",
     "url": "/8march24/index.html"
   }
 ];
