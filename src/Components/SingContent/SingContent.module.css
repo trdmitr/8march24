@@ -187,6 +187,7 @@
     background-color: var(--buttonBack);
     text-shadow: var(--textShadow);
     /* border: 3px  solid 2196f3;    */
+    padding: 0.7em;
   }
   .tziTata img {
    
